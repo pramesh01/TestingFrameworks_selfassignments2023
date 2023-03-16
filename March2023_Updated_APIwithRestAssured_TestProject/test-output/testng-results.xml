@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-20T18:43:04 IST" name="Default suite" finished-at="2022-03-20T18:43:15 IST" duration-ms="11757">
+    <groups>
+    </groups>
+    <test started-at="2022-03-20T18:43:04 IST" name="Default test" finished-at="2022-03-20T18:43:15 IST" duration-ms="11757">
+      <class name="spotify.oauth2.tests.PlaylistTests">
+        <test-method signature="shouldbeabletoCreatePlaylist()[pri:0, instance:spotify.oauth2.tests.PlaylistTests@55f8669d]" started-at="2022-03-20T18:43:04 IST" name="shouldbeabletoCreatePlaylist" finished-at="2022-03-20T18:43:14 IST" duration-ms="10170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldbeabletoCreatePlaylist -->
+        <test-method signature="shouldbeabletogetPlaylist()[pri:0, instance:spotify.oauth2.tests.PlaylistTests@55f8669d]" started-at="2022-03-20T18:43:14 IST" name="shouldbeabletogetPlaylist" finished-at="2022-03-20T18:43:14 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldbeabletogetPlaylist -->
+        <test-method signature="shouldnotbeabletocreatePlaylistwithoutName()[pri:0, instance:spotify.oauth2.tests.PlaylistTests@55f8669d]" started-at="2022-03-20T18:43:14 IST" name="shouldnotbeabletocreatePlaylistwithoutName" finished-at="2022-03-20T18:43:15 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldnotbeabletocreatePlaylistwithoutName -->
+        <test-method signature="shouldnotbeabletocreatewithwrongToken()[pri:0, instance:spotify.oauth2.tests.PlaylistTests@55f8669d]" started-at="2022-03-20T18:43:15 IST" name="shouldnotbeabletocreatewithwrongToken" finished-at="2022-03-20T18:43:15 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldnotbeabletocreatewithwrongToken -->
+        <test-method signature="updatePlaylist()[pri:0, instance:spotify.oauth2.tests.PlaylistTests@55f8669d]" started-at="2022-03-20T18:43:15 IST" name="updatePlaylist" finished-at="2022-03-20T18:43:15 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlaylist -->
+      </class> <!-- spotify.oauth2.tests.PlaylistTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

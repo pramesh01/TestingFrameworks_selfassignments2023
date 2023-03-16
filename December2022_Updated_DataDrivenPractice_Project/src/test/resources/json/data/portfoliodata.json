@@ -1,0 +1,59 @@
+{
+ 
+ "testdata": [
+ 
+   {
+ 
+     "flag": "createPortfolio",
+ 
+     "data": [
+ 
+       {
+   
+       "portfolioname":"Folio_001",
+
+       "runmode": "Y"
+ 
+       },
+
+        {
+  
+        "portfolioname":"Folio_002",
+ 
+        "runmode": "Y"
+ 
+       }
+ 
+     ]
+  
+     },
+ 
+    {
+  
+    "flag":"deletePortfolio",
+
+      "data": [
+ 
+       {
+ 
+         "portfolioname":"Folio_001",
+
+         "runmode": "Y"
+  
+      },
+ 
+       {
+   
+          "portfolioname":"Folio_002",
+ 
+          "runmode": "Y"
+
+        }
+  
+    ]
+ 
+   }
+
+  ]
+
+}

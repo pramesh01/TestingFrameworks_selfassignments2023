@@ -1,0 +1,72 @@
+{
+ 
+ "suitename":"Stock Suite",
+
+  "testcases":[
+  
+  {
+  
+    "name":"Add New Stock",
+  
+    "parameternames":["action","para1"],
+  
+    "executions":[
+  
+      {
+    
+       "runmode":"N",
+      "executionname":"New Stock",
+   
+       "dataFlag":"addFreshStock",
+  
+        "parametervalues":["addStock","paraval1"],
+ 
+       "methods":["selectPortFolio","addFreshStock"]
+ 
+   }
+   
+     ]
+  
+  },
+   
+ {
+   
+   "name":"Modify Stock",
+ 
+   "parameternames":["action","para1"],
+     
+   "executions":[
+
+        {
+      
+   "runmode":"N",  
+   "executionname":"Buy Existing Stock",
+ 
+    "dataFlag":"addStock",
+   
+    "parametervalues":["buyStock","paraval1"],
+
+    "methods":["selectPortFolio","verifyStockInList","modifyStock"]
+  
+      },
+
+        {
+   
+      "runmode":"Y",
+      "executionname":"Sell Existing Stock",
+   
+       "dataFlag":"sellStock",
+   
+       "parametervalues":["sellStock","paraval1"],
+
+       "methods":["selectPortFolio","verifyStockInList","modifyStock"]  
+ 
+        }
+  
+        ]
+  
+           }
+  
+      ]
+
+       }

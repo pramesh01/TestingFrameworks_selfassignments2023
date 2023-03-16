@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Stock Suite Test">
+
+<listeners>
+<listener class-name="listener.MyTestListener"/>
+</listeners>
+
+  <test name="Adding Stock InTo Portfolio">
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+      <methods>
+      <include name="selectPortFolio"/>
+      </methods>
+      </class>
+       <class name="testcases.rediff.StockManagement">
+      <methods>
+      <include name="addFreshStock"/>
+       <include name="verifyStockInList"/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  <!-- Test-->
+  
+  <!--test name="Verifying Stock Name In the StockList">
+    <classes>
+      <class name="testcases.rediff.Session">
+      <methods>
+      <include name="doLogin"/>
+      </methods>
+      </class>
+       <class name="testcases.rediff.StockManagement">
+      <methods>
+      <include name="verifyStockInList"/>
+      </methods>
+      </class>
+    </classes>
+  </test--> 
+  <!-- Test -->
+  
+  <test name="Modify the Stocks Details -Buy">
+  <parameter name="action" value="buyStock"/>
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+      <methods>
+      <include name="selectPortFolio"/>
+      </methods>
+      </class>
+      <class name="testcases.rediff.StockManagement">
+      <methods>
+      <include name="verifyStockInList"/>
+      <include name="modifyStock"/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+   <!-- Test -->
+  
+  <test name="Modify the Stocks Details -Sell">
+  <parameter name="action" value="sellStock"/>
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+      <methods>
+      <include name="selectPortFolio"/>
+      </methods>
+      </class>
+       <class name="testcases.rediff.StockManagement">
+      <methods>
+      <include name="verifyStockInList"/>
+      <include name="modifyStock"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,126 @@
+{
+ 
+ "testdata": [
+ 
+   {
+  
+    "flag": "addFreshStock",
+ 
+     "data": [
+
+        {
+   
+       "portfolioname":"Pramesh_001",
+        "stockname": "Wipro",
+  
+        "date": "15-11-2020",
+  
+        "quantity": "150",
+ 
+        "price": "55",
+  
+        "runmode": "N"
+ 
+       },
+ 
+       {
+
+          "portfolioname":"Pramesh_001",
+          "stockname": "Tata Consultancy",
+   
+          "date": "15-11-2020",
+ 
+          "quantity": "150",
+  
+          "price": "55",
+ 
+          "runmode": "N"
+ 
+       }
+ 
+     ]
+  
+  },
+  
+  {
+   
+     "flag": "addStock",
+   
+     "data": [
+ 
+       {
+   
+         "portfolioname":"Pramesh_001",  
+         "stockname": "Tata Consultancy",
+  
+         "date": "15-11-2020",
+ 
+         "quantity": "150",
+  
+         "price": "55",
+ 
+         "runmode": "N"
+        },
+ 
+       {
+ 
+         "portfolioname":"Pramesh_001",
+         "stockname": "Wipro",
+ 
+         "date": "15-11-2020",
+ 
+         "quantity": "150",
+
+         "price": "55",
+  
+         "runmode": "N"
+   
+     }
+ 
+     ]
+   
+ },
+
+    {
+   
+   "flag": "sellStock",
+  
+    "data": [
+   
+     {
+  
+        "portfolioname":"Pramesh_001",
+        "stockname": "Wipro",
+ 
+        "date": "15-11-2020",
+    
+        "quantity": "350",
+  
+        "price": "55",
+
+        "runmode": "Y"
+    
+    },
+ 
+       {
+ 
+         "portfolioname":"Pramesh_001",
+         "stockname": "Tata Consultancy",
+ 
+         "date": "15-11-2020",
+
+         "quantity": "215",
+   
+        "price": "55",
+  
+        "runmode": "Y"
+ 
+       }
+ 
+     ]
+ 
+   }
+ 
+ ]
+
+}

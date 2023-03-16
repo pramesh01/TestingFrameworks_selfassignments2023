@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Stock Suite]">
+  <listeners>
+    <listener class-name="listener.MyTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Modify Stock Sell Existing Stock iteration 1(failed)">
+    <parameter name="datafilpath" value="E:\Selenium_IDE_Code_WorkSpace\December2021_DataDrivenPractice_Project//src//test//resources//json//xls_data//Data.xlsx"/>
+    <parameter name="action" value="sellStock"/>
+    <parameter name="para1" value="paraval1"/>
+    <parameter name="iteration" value="0"/>
+    <parameter name="suitename" value="Stock Suite"/>
+    <parameter name="dataFlag" value="sellStock"/>
+    <classes>
+      <class name="testcases.rediff.StockManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="verifyStockInList"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="modifyStock"/>
+        </methods>
+      </class> <!-- testcases.rediff.StockManagement -->
+    </classes>
+  </test> <!-- Modify Stock Sell Existing Stock iteration 1(failed) -->
+</suite> <!-- Failed suite [Stock Suite] -->
